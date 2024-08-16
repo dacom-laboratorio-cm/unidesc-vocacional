@@ -32,9 +32,9 @@ Observação:
                             border: 1px solid rgba(0,0,0,.125);
                             border-radius: .25rem;">
                 <div>
-                    <img src="https://i.imgur.com/NFGKQ1I.jpg" style="width: 100%;" alt="Teste Vocacional">
+                    <img src="https://i.imgur.com/OZmurkT.png" style="width: 100%;" alt="Teste Vocacional">
                     <div style="padding: 1.25rem;">
-                        <b style="margin-bottom: .75rem;">Teste Vocacional | UNIDESC</b>
+                        <b style="margin-bottom: .75rem;">Teste Vocacional | UTFPR</b>
                         <p class="card-text"> Olá {{ucwords(strtolower($data->nome))}}, muito obrigado por ter participado do nosso teste vocacional.</p>
 
                         <!-- Informação do candidato -->
@@ -150,33 +150,39 @@ Observação:
                                  font-weight: 400;text-align: justify ;padding: 15px;background-color: #fff">
 
                                     <b>Grupo A:</b>
-                                    Queda para o campo das ciências físicas,que abrange profissões como engenharia,
-                                    física e computação por exemplo.
+                                    Tendências ao grupo da tecnologia: uma pessoa que ama desenvolver
+                                    e descobrir a solução dos problemas. Na UTFPR-CM, na área de tecnologia, possuímos
+                                    os cursos de Engenharia Eletrônica e Ciência da Computação.
+
                                 </p>
                                 <p style="/*box-shadow: 0 1px 9px -3px */ border: 1px solid rgba(0,0,0,.125);
                                 font-weight: 400;text-align: justify ;padding: 15px;background-color: #fff">
 
                                     <b>Grupo B:</b>
-                                    Mostra interesse pela área de biológicas ou seja, cursos indicados como  medicina,
-                                    biologia, odontologia e etc.
+                                    Tendências ao grupo de construção e infraestrutura: uma pessoa que ama 
+                                    planejar projetos e construí-los. Na UTFPR-CM, na área de construção, possuímos o curso de 
+                                    Engenharia Civil.
                                 </p>
                                 <p style="/*box-shadow: 0 1px 9px -3px */ border: 1px solid rgba(0,0,0,.125);font-weight: 400;text-align: justify ;padding: 15px;background-color: #fff">
 
                                     <b>Grupo C:</b>
-                                    Tem maior inclinação para a área de humanas, como direito, psicologia,
-                                    sociologia, economia e administração.
+                                    Tendências ao grupo de meio ambiente e sustentabilidade: uma pessoa que ama 
+                                    criar soluções para os problemas atuais do mundo: eficiência energética, reciclagem... Na 
+                                    UTFPR-CM, possuímos o curso de Engenharia Ambiental e Sanitária.
                                 </p>
                                 <p style="/*box-shadow: 0 1px 9px -3px */ border: 1px solid rgba(0,0,0,.125);font-weight: 400;text-align: justify ;padding: 15px;background-color: #fff">
                                     <b>Grupo D:</b>
-                                    Exibe maior interesse por profissões ligadas ao uso e domínio da língua
-                                    (oral e escrita), como relações públicas, jornalismo, letras e etc.
+                                    Tendências ao grupo de ciências químicas: uma pessoa que ama experimentar com 
+                                    químicos, desenvolver compostos e novas fórmulas. Na UTFPR-CM, possuímos os cursos de Engenharia 
+                                    Química e Licenciatura química.
                                 </p>
                                 <p style="/*box-shadow: 0 1px 9px -3px */ border: 1px solid rgba(0,0,0,.125);
                                 font-weight: 400;text-align: justify ;padding: 15px;background-color: #fff">
 
                                     <b>Grupo E:</b>
-                                    Tem interesse por atividades artísticas, como cinema, teatro, música,                                                arquitetura e
-                                    artes plásticas.
+                                    Tendências ao grupo de alimentos e nutrição: uma pessoa que ama estudar sobre a nutrição 
+                                    dos alimentos e seus componentes. Na UTFPR-CM, possuímos os cursos de Engenharia de alimentos e
+                                    Tecnologia de alimentos.
 
                                 </p>
                             </div>
@@ -189,10 +195,10 @@ Observação:
                                 border: 1px solid rgba(0,0,0,.125);
                                 border-radius: .25rem;">
                                 <div style="background-color: darkgray; padding: 5px 0;">
-                                    Telefone:(61) 3878-3100 <br/>
-                                    Rodovia BR-040 (Acesso à Cidade Ocidental) Jardim Flamboyant <br/>
-                                    Cidade Ocidental - Goiás  <br/>
-                                    <a href="http://www.unidesc.edu.br/" target="_blank" >www.unidesc.edu.br</a>
+                                    Telefone:(44) 3518-1400 <br/>
+                                    Via Rosalina Maria dos Santos, 1233 - Vila Carolo,
+                                    Campo Mourão - PR, 87301-899  <br/>
+                                    <a href="https://www.utfpr.edu.br/campus/campomourao/sobre" target="_blank" >https://www.utfpr.edu.br/campus/campomourao/sobre</a>
                                 </div>
                             </div>
 

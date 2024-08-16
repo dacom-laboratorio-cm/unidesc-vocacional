@@ -2,7 +2,7 @@
 
 @section('conteudo')
     <header class="alinhar-bg-questoes">
-        <img src="{{asset("/assets/template/img/elemento-capa-2019.png")}}" alt="capa" style="width: 800px"
+        <img src="{{asset("/assets/template/img/meus/capa-final.png")}}" alt="capa" style="width: 1600px"
              draggable="false">
     </header>
 
@@ -22,16 +22,15 @@
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-A-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/tecnologia.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify  font-weight-normal">
-                                        Queda para o campo das <span class="text-info">ciências físicas</span>,
-                                        que abrange profissões como
-                                        <span class="text-info">engenharia, física e computação</span> por
-                                        exemplo.
+                                        Tendências ao <span class="text-info">grupo da tecnologia</span>: uma pessoa que ama desenvolver
+                                        e descobrir a solução dos problemas. Na UTFPR-CM, na área de tecnologia, possuímos
+                                        os cursos de <span class="text-info">Engenharia Eletrônica e Ciência da Computação.</span>
                                     </p>
                                 </div>
                             </div>
@@ -49,15 +48,15 @@
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-B-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/construcao-e-infraestrutura.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Mostra interesse pela área de <span class="text-info">biológicas</span>,
-                                        ou seja, cursos indicados como <span class="text-info"> medicina,
-                                        biologia, odontologia </span>e etc.
+                                    Tendências ao grupo de <span class="text-info">construção e infraestrutura</span>: uma pessoa que ama 
+                                    planejar projetos e construí-los. Na UTFPR-CM, na área de construção, possuímos o curso de 
+                                    <span class="text-info">Engenharia Civil.</span>
                                     </p>
                                 </div>
                             </div>
@@ -74,15 +73,15 @@
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-C-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/meio-ambiente.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tem maior inclinação para a área de humanas,
-                                        <span class="text-info">como direito, psicologia,
-                                            sociologia, economia e administração</span>.
+                                        Tendências ao grupo de <span class="text-info">meio ambiente e sustentabilidade</span>: uma pessoa que ama 
+                                        criar soluções para os problemas atuais do mundo: eficiência energética, reciclagem... Na 
+                                        UTFPR-CM, possuímos o curso de <span class="text-info">Engenharia Ambiental e Sanitária.</span>
                                     </p>
                                 </div>
                             </div>
@@ -99,15 +98,15 @@
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-D-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/ciencias-quimicas.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Exibe maior interesse por profissões ligadas ao uso e <span class="font-italic"> domínio da língua </span>
-                                        (oral e escrita), como <span class="text-info">, relações públicas, jornalismo,
-                                            letras e etc</span>.
+                                        Tendências ao grupo de <span class="text-info">ciências químicas</span>: uma pessoa que ama experimentar com 
+                                        químicos, desenvolver compostos e novas fórmulas. Na UTFPR-CM, possuímos os cursos de
+                                        <span class="text-info">Engenharia Química e Licenciatura química.</span>
                                     </p>
                                 </div>
                             </div>
@@ -124,15 +123,15 @@
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-E-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/alimentos-e-nutricao.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tem interesse por <span class="font-italic">atividades artísticas</span>,
-                                        como<span class="text-info"> cinema, teatro, música, arquitetura e
-                                            artes plásticas</span>.
+                                        Tendências ao grupo de <span class="text-info">alimentos e nutrição</span>: uma pessoa que ama estudar sobre a nutrição 
+                                        dos alimentos e seus componentes. Na UTFPR-CM, possuímos os cursos de
+                                        <span class="text-info">Engenharia de alimentos e Tecnologia de alimentos.</span>
                                     </p>
                                 </div>
                             </div>

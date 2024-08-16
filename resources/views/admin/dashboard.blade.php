@@ -3,7 +3,7 @@
 @section('admin_conteudo')
 
     <header class="alinhar-bg-questoes">
-        <img src="{{asset("/assets/template/img/elemento-capa-2019.png")}}" style="width: 800px">
+        <img src="{{asset("/assets/template/img/meus/elemento-capa.png")}}" style="width: 800px">
     </header>
 
     <nav class="navbar navbar-expand-lg bg-info mb-1">

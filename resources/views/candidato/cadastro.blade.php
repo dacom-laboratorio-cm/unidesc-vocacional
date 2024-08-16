@@ -4,7 +4,7 @@
 
     <div class="wrapper">
         <header class="alinhar">
-            <img class="bg-form" src="{{asset("/assets/template/img/capa-teste.jpg")}}" alt="capa">
+            <img class="bg-form" src="{{asset("/assets/template/img/meus/capa-final.png")}}" alt="capa">
         </header>
 
         <div class="section-form">

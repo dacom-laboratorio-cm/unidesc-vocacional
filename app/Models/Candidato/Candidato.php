@@ -26,7 +26,7 @@ class Candidato extends Model
         return $this->hasOne(ResultadoCand::class, 'id');
     }
 
-    public function unisersidade()
+    public function universidade()
     {
         return $this->hasOne(Universidade::class, 'id', 'universidade_id');
     }

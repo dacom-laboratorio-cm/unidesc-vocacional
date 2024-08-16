@@ -3,7 +3,7 @@
 @section('conteudo')
     <div class="wrapper">
         <header class="alinhar-bg-questoes">
-            <img src="{{asset("/assets/template/img/elemento-capa-2019.png")}}" alt="capa" style="width: 800px">
+            <img src="{{asset("/assets/template/img/meus/capa-final.png")}}" alt="capa" style="width: 1600px">
         </header>
 
         <div class="container">
