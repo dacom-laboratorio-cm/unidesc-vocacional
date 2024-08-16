@@ -41,7 +41,7 @@
         <p>Você pode esta tentando acessar uma pagina que não existe em nosso sistema. Entre em contato conosco caso seja necessário.</p>
         <a href="{{route('home')}}">Início</a>
         <div class="notfound-social">
-            <a href="https://www.facebook.com/unidesc/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/utfprcampomourao/" target="_blank"><i class="fa fa-facebook"></i></a>
         </div>
     </div>
 

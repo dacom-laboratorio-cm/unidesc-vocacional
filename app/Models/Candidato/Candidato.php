@@ -2,6 +2,7 @@
 
 namespace App\Models\Candidato;
 
+use App\Models\Localidades\Escola;
 use App\Services\CandidatoServices;
 use App\Models\Localidades\Cidade;
 use App\Models\Universidade\Universidade;
@@ -13,12 +14,12 @@ class Candidato extends Model
     Use SoftDeletes;
     protected $dates = ['deleted_at'];
 
-    protected $fillable = ['nome', 'telefone', 'email', 'cidade_id', 'escolaridade_id', 'resultado_id',
+    protected $fillable = ['nome', 'escola_id', 'escolaridade_id', 'resultado_id',
                            'visitor', 'universidade_id'];
 
-    public function cidade()
+    public function escola()
     {
-        return $this->hasOne(Cidade::class, 'id', 'cidade_id');
+        return $this->hasOne(Escola::class, 'id', 'escola_id');
     }
 
     public function resultado()
@@ -26,7 +27,7 @@ class Candidato extends Model
         return $this->hasOne(ResultadoCand::class, 'id');
     }
 
-    public function unisersidade()
+    public function universidade()
     {
         return $this->hasOne(Universidade::class, 'id', 'universidade_id');
     }

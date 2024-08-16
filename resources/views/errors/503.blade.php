@@ -41,7 +41,7 @@
         <p>Pedimos desculpas por não atender no momento.<br>Estamos trabalhando o mais rápido possível.</p>
         <a href="{{route('home')}}">VOLTE MAIS TARDE!</a>
         <div class="notfound-social">
-            <a href="https://www.facebook.com/unidesc/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/utfprcampomourao/" target="_blank"><i class="fa fa-facebook"></i></a>
         </div>
     </div>
 

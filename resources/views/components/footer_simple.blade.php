@@ -5,7 +5,7 @@
                 &copy;
                 <script>
                     document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-                </script>, UNIDESC
+                </script>, UTFPR
             </div>
         </div>
     </footer>

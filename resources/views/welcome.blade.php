@@ -6,13 +6,13 @@
 <body class="index-page sidebar-collapse" id="topo">
 
 <div class="wrapper">
-    <div class="page-header clear-filter" filter-color="blue">
+    <div class="page-header clear-filter" filter-color="orange">
         <div class="page-header-image" data-parallax="true"
              style="background-image:url({{url('/assets/template/img/job-bg.jpg')}});">
         </div>
         <div class="container mt-5">
             <div class="content-center brand">
-                <img src="{{url('/assets/template/img/teste-vocacional-logo-feira.png')}}" alt="teste-vocacional"
+                <img src="{{url('/assets/template/img/meus/feira-de-profissoes-logo.png')}}" alt="teste-vocacional"
                      class="logo-home">
                 <h3>O que você deve saber sobre o teste vocacional!</h3>
                 <div class="content">
@@ -44,7 +44,9 @@
         </div>
     </div>
 
-    <div class="section section-basic" id="basic-elements">
+    <!-- COMENTEI POIS ACHEI QUE NOSSA VERSÃO DO PROJETO NÃO PRECISAVA DISSO. SÓ FALAVA DE CURSOS DE T.I,
+     E O NOSSO TESTE ABRANGE BEM MAIS DO QUE SÓ T.I -->
+    <!-- <div class="section section-basic" id="basic-elements">
         <div class="container">
             <h3 class="title" id="artigo-ti">Área da TI</h3>
             <hr>
@@ -136,7 +138,7 @@
         <button class="btn btn-neutral btn-icon btn-round"><i class="fas fa-arrow-circle-up"></i></button>
     </a>
 </div>
-
+ -->
 
 @include('components.footer')
 
