@@ -17,373 +17,190 @@ class QuestaosSeeder extends Seeder
 
             // Grupo A
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre eletricidade',
+                'altenativa' => 'A', 'texto_alternativa' => 'Estudar sobre inteligência artificial',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre física nuclear',
+                'altenativa' => 'B', 'texto_alternativa' => 'Saber como um celular funciona',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'observar planetas no telescópio',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver videogames',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'observar célula no microscópio',
+                'altenativa' => 'B', 'texto_alternativa' => 'Estudar sobre circuitos eletrônicos',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre a fabricação de tintas',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver um site e aplicativos',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre métodos de calcular',
+                'altenativa' => 'B', 'texto_alternativa' => 'Entender sobre Internet das Coisas',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'obter uma bolsa para estudar química',
+                'altenativa' => 'A', 'texto_alternativa' => 'Entender sobre segurança digital',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'obter uma bolsa para estudar educação',
+                'altenativa' => 'B', 'texto_alternativa' => 'Entender como é feito uma placa eletrônica',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'fazer o projeto de um viaduto',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver software para empresas',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'traduzir um romance',
+                'altenativa' => 'B', 'texto_alternativa' => 'Saber como projetar um processador',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'fazer experiências num laboratório de física',
+                'altenativa' => 'A', 'texto_alternativa' => 'Estudar sobre algoritmos',
                 'grupo' => 'A'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'fazer modelagem e desenho',
+                'altenativa' => 'B', 'texto_alternativa' => 'Saber prototipagem eletrônica',
                 'grupo' => 'A'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre mecânica',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre física quântica',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar os ossos e músculos do corpo humano',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'conhecer o mecanismo das máquinas em geral',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'resolver quebra-cabeças matemáticos',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'resolver quebra-cabeças com objetos',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'visitar um orfanato',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'visitar um museu de ciência',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler obras de escritores famosos',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'conhecer trabalhos de físicos famosos',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'visitar uma galeria de arte',
-                'grupo' => 'A'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'conhecer um novo aparelho de laboratório',
-                'grupo' => 'A'],
-
             // Grupo B
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'conhecer as leis da genética',
+                'altenativa' => 'A', 'texto_alternativa' => 'Construir barragens',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'conhecer o funcionamento de um motor',
+                'altenativa' => 'B', 'texto_alternativa' => 'Planejar a planta de uma  casa',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'visitar um laboratório de microbiologia',
+                'altenativa' => 'A', 'texto_alternativa' => 'Planejar a construção de uma ponte',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ir a uma exposição de produtos ',
+                'altenativa' => 'B', 'texto_alternativa' => 'Planejar o sistema de esgoto de uma cidade',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar a respiração dos peixes',
+                'altenativa' => 'A', 'texto_alternativa' => 'Saber selecionar e testar materiais de construção',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'aprender a trabalhar com máquinas de calcular',
+                'altenativa' => 'B', 'texto_alternativa' => 'Restaurar um edifício histórico',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'analisar as propriedades terapêuticas das frutas',
+                'altenativa' => 'A', 'texto_alternativa' => 'Estudar o comportamento do solo e das rochas do local de uma construção',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'fazer um estudo sobre desemprego',
+                'altenativa' => 'B', 'texto_alternativa' => 'Trabalhar em obras de urbanização',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre a reprodução das aves',
+                'altenativa' => 'A', 'texto_alternativa' => 'Planejar a construção de apartamentos ',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre literatura',
+                'altenativa' => 'B', 'texto_alternativa' => 'Construir  estradas e rodovias',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'fazer experiências com plantas',
+                'altenativa' => 'A', 'texto_alternativa' => 'Construir uma escola',
                 'grupo' => 'B'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'fazer decoração e paisagismo',
+                'altenativa' => 'B', 'texto_alternativa' => 'Entender sobre infraestrutura',
                 'grupo' => 'B'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar a composição da atmosfera',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'estudar o DNA',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ir a um laboratório de análises clínicas',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'assistir a uma palestra sobre imunologia',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'determinar o custo de uma nova máquina',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'pesquisar a cura da Aids',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar a causa da delinquência juvenil',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'observar o comportamento dos animais',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'obter uma bolsa de literatura',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'obter uma bolsa de biologia',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler a seção de variedades de um jornal',
-                'grupo' => 'B'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre a importância das vitaminas',
-                'grupo' => 'B'],
-
             // Grupo C
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'visitar um asilo de velhos',
+                'altenativa' => 'A', 'texto_alternativa' => 'Estudar sobre meio ambiente',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'visitar uma usina nuclear',
+                'altenativa' => 'B', 'texto_alternativa' => 'Estudar sobre energias renováveis',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar o problema do menor abonado',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver soluções de reciclagem',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'observar o comportamento dos insetos',
+                'altenativa' => 'B', 'texto_alternativa' => 'Desenvolver soluções para o tratamento de água',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'entrevistar famílias sobre educação dos filhos',
+                'altenativa' => 'A', 'texto_alternativa' => 'Monitorar a qualidade do ar, água e solo',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'organizar e tabular pesquisas',
+                'altenativa' => 'B', 'texto_alternativa' => 'Planejar o tratamento de um rio',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ajudar a resolver problemas de crianças',
+                'altenativa' => 'A', 'texto_alternativa' => 'Planejar o desenvolvimento sustentável de uma região',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ajudar famílias de migrantes a se adaptar',
+                'altenativa' => 'B', 'texto_alternativa' => 'Trabalhar em projetos de preservação ambiental ',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ser voluntário em programas de adoção de menores',
+                'altenativa' => 'A', 'texto_alternativa' => 'Monitorar mudanças climáticas',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'participar de cursos de redação',
+                'altenativa' => 'B', 'texto_alternativa' => 'Planejar projetos de reflorestamento',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre a produção de drogas',
+                'altenativa' => 'A', 'texto_alternativa' => 'Fazer estudos sobre impacto ambiental',
                 'grupo' => 'C'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre arte clássica',
+                'altenativa' => 'B', 'texto_alternativa' => 'Estudar sobre como diminuir a poluição do ar',
                 'grupo' => 'C'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'obter uma bolsa de estatística',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'obter uma bolsa de pedagogia',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'analisar a composição dos alimentos',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'analisar as causas do desemprego',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'calcular o aumento do custo de vida',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'estudar a condição social do trabalhador',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ajudar a combater a mendicância',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'ajudar na educação de favelados ',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar informática',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'estudar novo método para erradicar o analfabetismo',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'desenhar modelos de roupas',
-                'grupo' => 'C'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'ensinar crianças a se orientar no trânsito',
-                'grupo' => 'C'],
-
             // Grupo D
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler obras de romancistas consagrados',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver produtos de limpeza',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'conhecer trabalhos de prêmios Nobel de física',
+                'altenativa' => 'B', 'texto_alternativa' => 'Trabalhar em  indústrias químicas',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar a história da pintura',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver produtos para a indústria farmacêutica',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'estudar a história da ciência',
+                'altenativa' => 'B', 'texto_alternativa' => 'Estudar química orgânica',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'pertencer a um grupo literário',
+                'altenativa' => 'A', 'texto_alternativa' => 'Trabalhar em laboratórios de química ',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'pertencer a um grupo da internet especializado em finanças',
+                'altenativa' => 'B', 'texto_alternativa' => 'Saber como acontecem as reações químicas',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'aprender um idioma estrangeiro',
+                'altenativa' => 'A', 'texto_alternativa' => 'Desenvolver práticas para garantir a segurança em processos químicos industriais',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'aprender um novo sistema de catalogar animais',
+                'altenativa' => 'B', 'texto_alternativa' => 'Trabalhar em grandes empresas de petróleo',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'fazer um curso de literatura moderno',
+                'altenativa' => 'A', 'texto_alternativa' => 'Saber como retirar a matéria-prima do meio ambiente e evitar danos ambientais',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'assistir a um curso de gramática',
+                'altenativa' => 'B', 'texto_alternativa' => 'Estudar sobre energia nuclear',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'escrever uma peça teatral',
+                'altenativa' => 'A', 'texto_alternativa' => 'Ensinar sobre química',
                 'grupo' => 'D'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'trabalhar numa peça',
+                'altenativa' => 'B', 'texto_alternativa' => 'Desenvolver equipamentos para usos em processos industriais químicos',
                 'grupo' => 'D'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'projetar uma estrada',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'recitar poemas',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre protozoários',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre poesia',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'escrever uma tese de química',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'escrever uma novela',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'participar de programas de recuperação de drogados',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'participar de um curso de arte',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'estudar regras de estilo e oratória',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'estudar literatura e interpretação de texto',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'criar modelos de cartões-postais',
-                'grupo' => 'D'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'criar frases originais para esses cartões',
-                'grupo' => 'D'],
-
             // Grupo E
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'visitar uma exposição de escultura',
+                'altenativa' => 'A', 'texto_alternativa' => 'Criar novos produtos alimentícios',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'conhecer um novo tipo de fax',
+                'altenativa' => 'B', 'texto_alternativa' => 'Desenvolver um novo sabor para um alimento industrializado',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre cinema e teatro',
+                'altenativa' => 'A', 'texto_alternativa' => 'Coordenar a  produção em fábricas de alimentos',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre avanços tecnológicos',
+                'altenativa' => 'B', 'texto_alternativa' => 'Criar embalagens para alimentos',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'colecionar reproduções de pintura',
+                'altenativa' => 'A', 'texto_alternativa' => 'Analisar a qualidade do alimento',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'colecionar gráficos da inflação',
+                'altenativa' => 'B', 'texto_alternativa' => 'Desenvolver embalagens que não poluam o meio ambiente',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'criar designs de objetos',
+                'altenativa' => 'A', 'texto_alternativa' => 'Estudar produtos alimentícios existentes para melhorá-los',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'criar campanhas de trânsito',
+                'altenativa' => 'B', 'texto_alternativa' => 'Conhecer quais bactérias causam intoxicação alimentar',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'bolar um novo tipo de cenografia para dança',
+                'altenativa' => 'A', 'texto_alternativa' => 'Saber como é o processo de fermentação',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'bolar uma nova iluminação para palco',
+                'altenativa' => 'B', 'texto_alternativa' => 'Estudar como deixar um alimento industrializado mais saudável em sua composição',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'A', 'texto_alternativa' => 'inventar estampas para tecido',
+                'altenativa' => 'A', 'texto_alternativa' => 'Saber como uma indústria produz um alimento de forma segura e higiênica',
                 'grupo' => 'E'],
             [
-                'altenativa' => 'B', 'texto_alternativa' => 'criar desenhos para histórias em quadrinhos',
+                'altenativa' => 'B', 'texto_alternativa' => 'Projetar equipamentos para uma indústria de alimentos',
                 'grupo' => 'E'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'fazer experiências num laboratório de química',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'fazer desenhos e gravura',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'testar a resistência dos materiais',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'fazer decoração de ambientes',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'trabalhar com computador',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'desenhar os móveis de uma casa',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'ler sobre o efeito estufa',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'ler sobre a história da música',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'redigir um roteiro de cinema',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'trabalhar num filme',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'A', 'texto_alternativa' => 'criar desenhos para embalagens de produtos',
-                'grupo' => 'E'],
-            [
-                'altenativa' => 'B', 'texto_alternativa' => 'criar ilustrações para artigos da imprensa',
-                'grupo' => 'E'],
+           
         ]);
     }
 }

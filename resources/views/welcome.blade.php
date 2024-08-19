@@ -35,11 +35,11 @@
                         </button>
                     </a>
                 </div>
-                <div class="content mt-5">
+                <!-- <div class="content mt-5">
                     <a href="#artigo-ti" class="scroll"><span class="font-italic f-white">Mais informações</span>
                         <i class="fas fa-arrow-down"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

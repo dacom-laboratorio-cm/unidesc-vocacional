@@ -25,9 +25,9 @@ class CandidatoFormRequest extends FormRequest
     {
         return [
             'nome' => 'required|min:10|max:50',
-            'email' => 'required',
-            'telefone' => 'required|min:14',
-            'cidade' => 'required',
+            // 'email' => 'required',
+            // 'telefone' => 'required|min:14',
+            'escola' => 'required',
             'escolaridade' => 'required',
             'universidade' => 'required'
         ];

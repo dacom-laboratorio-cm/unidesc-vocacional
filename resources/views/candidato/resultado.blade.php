@@ -106,7 +106,7 @@
                                     <p class="text-justify font-weight-normal">
                                         Tendências ao grupo de <span class="text-info">ciências químicas</span>: uma pessoa que ama experimentar com 
                                         químicos, desenvolver compostos e novas fórmulas. Na UTFPR-CM, possuímos os cursos de
-                                        <span class="text-info">Engenharia Química e Licenciatura química.</span>
+                                        <span class="text-info">Engenharia Química e Licenciatura Química.</span>
                                     </p>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                     <p class="text-justify font-weight-normal">
                                         Tendências ao grupo de <span class="text-info">alimentos e nutrição</span>: uma pessoa que ama estudar sobre a nutrição 
                                         dos alimentos e seus componentes. Na UTFPR-CM, possuímos os cursos de
-                                        <span class="text-info">Engenharia de alimentos e Tecnologia de alimentos.</span>
+                                        <span class="text-info">Engenharia de Alimentos e Tecnologia de Alimentos.</span>
                                     </p>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@
                         <span class="title-resultado-sobre">Resultado Final</span>
                         <p class="text-justify font-weight-normal sobre-teste-desc">
                             É hora de descobrir as profissões para as quais você demonstra certa inclinação.
-                            Veja onde você fez mais pontos e, usando como critério a tabela a acima, confira a sua
+                            Veja onde você fez mais pontos e, usando como critério a tabela abaixo, confira a sua
                             vocação.
                         </p>
                         <hr>

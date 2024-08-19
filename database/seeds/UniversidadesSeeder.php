@@ -13,7 +13,7 @@ class UniversidadesSeeder extends Seeder
     public function run()
     {
         $universidades = [
-            ['nm_universidade' => 'UNIDESC'],
+            ['nm_universidade' => 'UTFPR-CM'],
         ];
 
         foreach ($universidades as $uni) {

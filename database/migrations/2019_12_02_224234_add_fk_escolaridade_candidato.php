@@ -14,7 +14,7 @@ class AddFkEscolaridadeCandidato extends Migration
     public function up()
     {
         Schema::table('candidatos', function (Blueprint $table) {
-            $table->unsignedInteger('escolaridade_id')->after('cidade_id');
+            $table->unsignedInteger('escolaridade_id')->after('escola_id');
 
             $table->foreign('escolaridade_id')
                 ->references('id')->on('escolaridades')

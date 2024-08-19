@@ -49,7 +49,7 @@ export const test2E2 = () => {
     cy.get('input[name=nome]').type(obterValueAleatorio(3, false), {delay: 30});
     cy.get('input[name=telefone]').type(obterValueAleatorio(11, true), {delay: 30});
     cy.get('input[name=email]').type(`${obterValueAleatorio(15, false)}@gmail.com`, {delay: 30});
-    cy.get('select[name=cidade]').select('Gama');
+    cy.get('select[name=escola]').select('Gama');
     cy.get('select[name=serie]').select('Concluido');
 
     cy.wait(1000);

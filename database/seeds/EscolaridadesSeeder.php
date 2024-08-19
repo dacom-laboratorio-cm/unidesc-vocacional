@@ -20,7 +20,7 @@ class EscolaridadesSeeder extends Seeder
             ['ano' => '1º ano', 'descricao' => 'Ensino Médio'],
             ['ano' => '2º ano', 'descricao' => 'Ensino Médio'],
             ['ano' => '3º ano', 'descricao' => 'Ensino Médio'],
-            ['ano' => 'Concluído ', 'descricao' => '2º ano Concluído'],
+            ['ano' => 'Concluído ', 'descricao' => '3º ano Concluído'],
         ];
 
         foreach ($escolaridades as $esc) {

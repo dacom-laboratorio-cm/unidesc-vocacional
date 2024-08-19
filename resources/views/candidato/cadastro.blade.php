@@ -39,46 +39,47 @@
                                 <span class="badge badge-danger space-error-bg">{{ $errors->first('nome') }}</span>
                             @endif
                         </div>
+                        <!-- ESCOLA -->
+                        <div class="form-group col-sm-12 col-md-3">
+                            <div id="cidades">
+                                <label for="opcaoCidades">Escolas</label>
+                                <select class="form-control" id="opcaoCidades" name="escola">
+                                    <option value="">Selecione sua escola</option>
+                                </select>
+                            </div>
+                        </div>
                         {{--TELEFONE--}}
-                        <div class="form-group col-sm-12 col-md-4">
+                        <!-- <div class="form-group col-sm-12 col-md-4">
                             <label for="telefone">Telefone Celular</label>
                             <input type="text" class="form-control phone_with_ddd" id="telefone" name="telefone"
                                    placeholder="(DD) 00000-0000" value="{{old('telefone')}}" required>
                             @if($errors->has('telefone'))
                                 <span class="badge badge-danger space-error-bg">{{ $errors->first('telefone') }}</span>
                             @endif
-                        </div>
+                        </div> -->
                         {{--EMAIL--}}
-                        <div class="form-group col-sm-12 col-md-4">
+                        <!-- <div class="form-group col-sm-12 col-md-4">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" id="email" name="email"
                                    placeholder="nome@gmail.com" value="{{old('email')}}" required>
                             @if($errors->has('email'))
                                 <span class="badge badge-danger space-error-bg">{{ $errors->first('email') }}</span>
                             @endif
-                        </div>
+                        </div> -->
                     </div>
                     <div class="form-row">
                         {{--LOCALIDADE--}}
-                        <div class="form-group col-sm-12 col-md-3">
+                        <!-- <div class="form-group col-sm-12 col-md-3">
                             <div id="estados">
                                 <label for="opcaoEstados">Estados</label>
                                 <select class="form-control" id="opcaoEstados" required>
                                     <option value="">Selecione seu estado</option>
                                 </select>
                             </div>
-                        </div>
-                        <div class="form-group col-sm-12 col-md-3">
-                            <div id="cidades">
-                                <label for="opcaoCidades">Cidades</label>
-                                <select class="form-control" id="opcaoCidades" name="cidade">
-                                    <option value="">Selecione sua cidade</option>
-                                </select>
-                            </div>
-                        </div>
+                        </div> -->
                         {{--ESCOLARIDADES--}}
                         <div class="form-group col-sm-12 col-md-3">
-                            <label for="escolaridade">Serie</label>
+                            <label for="escolaridade">Série</label>
                             <select class="form-control" id="escolaridade" name="escolaridade" required>
                                 <option value="">Selecione sua Série</option>
                                 <optgroup label="Ensino Fundamental">
@@ -109,7 +110,7 @@
                             @endif
                         </div>
                         {{--UNIVERSIDADES--}}
-                        <div class="form-group col-sm-12 col-md-3">
+                        <div class="form-group col-sm-12 col-md-3 ml-md-3">
                             <label for="universidade">Você está em qual Universidade?</label>
                             <select class="form-control" id="universidade" name="universidade" required>
                                 <option value="">Selecione a Universidade</option>
@@ -145,42 +146,43 @@
 @section('scripts_cadastro_candidato')
     <script src="{{asset('assets/js/axios.min.js')}}"></script>
     <script type="text/javascript">
-        axios.get('{{route('api.get.estados')}}').then((resp) => {
+        axios.get('{{route('api.get.escolas')}}').then((resp) => {
 
-            let estados = document.querySelector('#opcaoEstados');
-            let cidades = document.querySelector('#opcaoCidades');
+            // let estados = document.querySelector('#opcaoEstados');
+            let escolas = document.querySelector('#opcaoCidades');
 
             // Monta os estados
-            resp.data.forEach(({ id, nm_estado }) => {
+            //UTFPR - monta as  escolas
+            resp.data.forEach(({ id, nm_escola}) => {
                 let opt = document.createElement('option');
                 opt.value = id;
-                opt.innerHTML = nm_estado;
-                estados.appendChild(opt)
+                opt.innerHTML = nm_escola;
+                escolas.appendChild(opt)
             });
 
-            estados.addEventListener('change', () => {
+            // estados.addEventListener('change', () => {
 
-                let estado_id = estados.value;
-                rollbackLocalidades();
+            //     let estado_id = estados.value;
+            //     rollbackLocalidades();
 
-                const BASE_URL = '{{$_SERVER['SERVER_NAME']}}';
-                const PORT = '{{$_SERVER['SERVER_PORT']}}';
+            //     const BASE_URL = '{{$_SERVER['SERVER_NAME']}}';
+            //     const PORT = '{{$_SERVER['SERVER_PORT']}}';
 
-                axios.get(`http://${BASE_URL}:${PORT}/api/cidades/${estado_id}`).then(({data}) => {
+            //     axios.get(`http://${BASE_URL}:${PORT}/api/cidades/${estado_id}`).then(({data}) => {
 
-                    // Monta as cidades do estado
-                    data.forEach(({ cidade_id, nm_cidade }) => {
-                        let opt = document.createElement('option');
-                        opt.value = cidade_id;
-                        opt.innerHTML = nm_cidade;
-                        cidades.appendChild(opt)
-                    });
+            //         // Monta as cidades do estado
+            //         data.forEach(({ cidade_id, nm_cidade }) => {
+            //             let opt = document.createElement('option');
+            //             opt.value = cidade_id;
+            //             opt.innerHTML = nm_cidade;
+            //             cidades.appendChild(opt)
+            //         });
 
-                });
-            })
+                // });
+            // })
         });
 
-        const rollbackLocalidades = () => $('#cidades').find('option').remove().end();
+        // const rollbackLocalidades = () => $('#cidades').find('option').remove().end();
 
         (() => {
             $("#nome").keyup(function() {

@@ -148,6 +148,7 @@ return [
         'age'                   => 'idade',
         'body'                  => 'conteúdo',
         'city'                  => 'cidade',
+        'school'                => 'escola',
         'country'               => 'país',
         'date'                  => 'data',
         'day'                   => 'dia',

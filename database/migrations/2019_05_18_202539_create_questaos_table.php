@@ -15,7 +15,7 @@ class CreateQuestaosTable extends Migration
     {
         Schema::create('questoes', function (Blueprint $table) {
             $table->increments('id');
-            $table->string( 'altenativa');
+            $table->string( 'alternativa');
             $table->string( 'texto_alternativa');
             $table->string( 'grupo');
         });

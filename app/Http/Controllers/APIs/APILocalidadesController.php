@@ -2,20 +2,20 @@
 
 namespace App\Http\Controllers\APIs;
 
-use App\Models\Localidades\Cidade;
-use App\Models\Localidades\Estado;
+use App\Models\Localidades\Escola;
+// use App\Models\Localidades\Estado;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class APILocalidadesController extends Controller
 {
-    public function getEstados()
+    public function getEscolas()
     {
-        return Estado::all('id', 'sg_estado', 'nm_estado');
+        return Escola::all('id', 'nm_escola');
     }
 
-    public function getCidadesByEstado($estado)
-    {
-        return Cidade::cidadesByEstado(strtoupper($estado));
-    }
+    // public function getCidadesByEstado($estado)
+    // {
+    //     return Cidade::cidadesByEstado(strtoupper($estado));
+    // }
 }

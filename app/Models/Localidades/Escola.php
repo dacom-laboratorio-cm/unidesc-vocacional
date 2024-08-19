@@ -23,7 +23,7 @@ class Escola extends Model
             ->select
             (
                 // 'cidades.id AS cidade_id',
-                'nm_escola'
+                'nome'
                 // 'nm_estado',
                 // 'sg_estado'
             )

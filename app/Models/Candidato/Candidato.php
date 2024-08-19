@@ -4,7 +4,6 @@ namespace App\Models\Candidato;
 
 use App\Models\Localidades\Escola;
 use App\Services\CandidatoServices;
-use App\Models\Localidades\Cidade;
 use App\Models\Universidade\Universidade;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

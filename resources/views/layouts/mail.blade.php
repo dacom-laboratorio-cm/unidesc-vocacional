@@ -34,7 +34,7 @@ Observação:
                 <div>
                     <img src="https://i.imgur.com/OZmurkT.png" style="width: 100%;" alt="Teste Vocacional">
                     <div style="padding: 1.25rem;">
-                        <b style="margin-bottom: .75rem;">Teste Vocacional | UTFPR</b>
+                        <b style="margin-bottom: .75rem;">Teste Vocacional | UTFPR-CM</b>
                         <p class="card-text"> Olá {{ucwords(strtolower($data->nome))}}, muito obrigado por ter participado do nosso teste vocacional.</p>
 
                         <!-- Informação do candidato -->
@@ -174,15 +174,15 @@ Observação:
                                     <b>Grupo D:</b>
                                     Tendências ao grupo de ciências químicas: uma pessoa que ama experimentar com 
                                     químicos, desenvolver compostos e novas fórmulas. Na UTFPR-CM, possuímos os cursos de Engenharia 
-                                    Química e Licenciatura química.
+                                    Química e Licenciatura Química.
                                 </p>
                                 <p style="/*box-shadow: 0 1px 9px -3px */ border: 1px solid rgba(0,0,0,.125);
                                 font-weight: 400;text-align: justify ;padding: 15px;background-color: #fff">
 
                                     <b>Grupo E:</b>
                                     Tendências ao grupo de alimentos e nutrição: uma pessoa que ama estudar sobre a nutrição 
-                                    dos alimentos e seus componentes. Na UTFPR-CM, possuímos os cursos de Engenharia de alimentos e
-                                    Tecnologia de alimentos.
+                                    dos alimentos e seus componentes. Na UTFPR-CM, possuímos os cursos de Engenharia de Alimentos e
+                                    Tecnologia de Alimentos.
 
                                 </p>
                             </div>

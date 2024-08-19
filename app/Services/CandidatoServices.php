@@ -14,7 +14,7 @@ class CandidatoServices {
     # Guarda em um unico array as respostas do candidato por grupo
     public static function filtrarByGrupo(Request $request, $grupo)
     {
-        for ($i = 1; $i <= 12; $i++){
+        for ($i = 1; $i <= 6; $i++){
             $questoesGrupo["Gp".$grupo.$i] = $request->only("Gp".$grupo.$i)["Gp".$grupo.$i];
         }
 
@@ -27,7 +27,7 @@ class CandidatoServices {
         $pointCandA = 0;
         $pointCandB = 0;
 
-        for ($i = 1; $i <= 12; $i++){
+        for ($i = 1; $i <= 6; $i++){
 
             if ($questoesGrupo["Gp".$grupo.$i] == 0){ // Marcou A
                 $pointCandA+=1;
@@ -45,9 +45,9 @@ class CandidatoServices {
     {
         $dadosCand->session()->put('dadosCand', [
             'nome' => $dadosCand->nome,
-            'telefone' => $dadosCand->telefone,
-            'email' => $dadosCand->email,
-            'cidade_id' => $dadosCand->cidade,
+            // 'telefone' => $dadosCand->telefone,
+            // 'email' => $dadosCand->email,
+            'escola_id' => $dadosCand->escola,
             'escolaridade_id' => $dadosCand->escolaridade,
             'universidade_id' => $dadosCand->universidade,
             'visitor' => $dadosCand->visitor,
