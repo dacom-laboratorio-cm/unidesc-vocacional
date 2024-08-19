@@ -3,7 +3,7 @@
 // use App\Models\Localidades\Cidade;
 // use App\Models\Localidades\Estado;
 use Illuminate\Database\Seeder;
-use app\Models\Localidades\Escola;
+use App\Models\Localidades\Escola;
 
 //Incluir a tabela 'escolas' para outra pessoa 
 //poder ter acesso aos mesmo dados 
@@ -5808,7 +5808,7 @@ class LocalidadesSeeder extends Seeder
 
         foreach ($escolas as $nomeEscola){
             Escola::create([
-                'nome' => $nomeEscola
+                'nm_escola' => $nomeEscola
             ]);
             echo "Inserida $nomeEscola\n";
         }
