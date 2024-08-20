@@ -185,7 +185,7 @@
                     showNextButton: true, // show/hide a Next button
                     showPreviousButton: true, // show/hide a Previous button
                     toolbarExtraButtons: [
-                        $('<button type="button" id="enviar" onclick="modalConfirmacao()"></button>').text('Enviar')
+                        $('<button type="submit" id="enviar" onclick="modalConfirmacao()"></button>').text('Enviar')
                             .addClass('btn btn-info')
                     ]
                 },
@@ -218,7 +218,7 @@
                 }
 
                 {{-- Ponto de partida do grupo B no JSON --}}
-                    $j = 13;
+                    $j = 12;
                 for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpBA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
@@ -228,7 +228,7 @@
                 }
 
                 {{-- Ponto de partida do grupo C no JSON --}}
-                    $j = 25;
+                    $j = 24;
                 for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpCA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
@@ -238,7 +238,7 @@
                 }
 
                 {{-- Ponto de partida do grupo D no JSON --}}
-                    $j = 37;
+                    $j = 36;
                 for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpDA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
@@ -249,7 +249,7 @@
                 }
 
                 {{-- Ponto de partida do grupo E no JSON --}}
-                    $j = 49;
+                    $j = 48;
                 for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpEA" + $i).append($questoes.responseJSON[$j].texto_alternativa);

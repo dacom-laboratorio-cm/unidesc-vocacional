@@ -164,16 +164,16 @@
                 <div class="row shadow-sm p-3 border border-success">
                     <span class="font-weight-bold">Nivel de Interesse:</span>
                     <div class="col">
-                        <span class="badge badge-default">0 a 3 pontos – pequeno</span>
+                        <span class="badge badge-default">0 a 1 pontos – pequeno</span>
                     </div>
                     <div class="col">
-                        <span class="badge badge-icon text-dark">4 a 6 pontos – moderado</span>
+                        <span class="badge badge-icon text-dark">2 a 3 pontos – moderado</span>
                     </div>
                     <div class="col">
-                        <span class="badge badge-primary">7 a 9 pontos – grande</span>
+                        <span class="badge badge-primary">4 a 5 pontos – grande</span>
                     </div>
                     <div class="col">
-                        <span class="badge badge-info">10 a 12 pontos – muito forte</span>
+                        <span class="badge badge-info">6 pontos – muito forte</span>
                     </div>
                 </div>
 

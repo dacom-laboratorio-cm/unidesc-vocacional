@@ -78,7 +78,7 @@
                             </div>
                         </div> -->
                         {{--ESCOLARIDADES--}}
-                        <div class="form-group col-sm-12 col-md-3">
+                        <div class="form-group col-sm-12 col-md-4">
                             <label for="escolaridade">Série</label>
                             <select class="form-control" id="escolaridade" name="escolaridade" required>
                                 <option value="">Selecione sua Série</option>
@@ -110,7 +110,7 @@
                             @endif
                         </div>
                         {{--UNIVERSIDADES--}}
-                        <div class="form-group col-sm-12 col-md-3 ml-md-3">
+                        <div class="form-group col-sm-12 col-md-3">
                             <label for="universidade">Você está em qual Universidade?</label>
                             <select class="form-control" id="universidade" name="universidade" required>
                                 <option value="">Selecione a Universidade</option>
