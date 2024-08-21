@@ -161,6 +161,8 @@
             $("#smartwizard").on("showStep", function (e, anchorObject, stepNumber, stepDirection) {
                 if ($('button.sw-btn-next').hasClass('disabled')) {
                     $('.sw-btn-group-extra').show(); // show the button extra only in the last page
+                    $('button.sw-btn-next').hide();  // Oculta o botão "Next"
+
                 } else {
                     $('.sw-btn-group-extra').hide();
                 }
@@ -174,7 +176,7 @@
                 backButtonSupport: true, // Enable the back button support
                 useURLhash: true, // Enable selection of the step based on url hash
                 lang: {  // Language variables
-                    next: 'Proximo',
+                    next: 'Próximo',
                     previous: 'Anterior'
                 },
 
@@ -185,7 +187,7 @@
                     showNextButton: true, // show/hide a Next button
                     showPreviousButton: true, // show/hide a Previous button
                     toolbarExtraButtons: [
-                        $('<button type="submit" id="enviar" onclick="modalConfirmacao()"></button>').text('Enviar')
+                        $('<button type="submit" id="enviar" onclick="modalConfirmacao()"></button>').text('Finalizar')
                             .addClass('btn btn-info')
                     ]
                 },

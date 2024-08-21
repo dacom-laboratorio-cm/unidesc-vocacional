@@ -54,6 +54,9 @@ class QuestaosSeeder extends Seeder
                 'grupo' => 'A'],
             // Grupo B
             [
+                'alternativa' => 'A', 'texto_alternativa' => 'Saber selecionar e testar materiais de construção',
+                'grupo' => 'B'],
+            [
                 'alternativa' => 'A', 'texto_alternativa' => 'Construir barragens',
                 'grupo' => 'B'],
             [
@@ -64,9 +67,6 @@ class QuestaosSeeder extends Seeder
                 'grupo' => 'B'],
             [
                 'alternativa' => 'B', 'texto_alternativa' => 'Planejar o sistema de esgoto de uma cidade',
-                'grupo' => 'B'],
-            [
-                'alternativa' => 'A', 'texto_alternativa' => 'Saber selecionar e testar materiais de construção',
                 'grupo' => 'B'],
             [
                 'alternativa' => 'B', 'texto_alternativa' => 'Restaurar um edifício histórico',

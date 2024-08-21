@@ -130,7 +130,7 @@
                         <input value="{{$_SERVER['REMOTE_ADDR']}}" name="visitor" type="hidden">
                         <div class="form-group d-flex justify-content-end col-sm-12">
                             <button type="submit" class="btn btn-primary btn-rp-submit"><i
-                                    class="fas fa-paper-plane"></i> Enviar
+                                    class="fas fa-paper-plane"></i> Continuar
                             </button>
                         </div>
                     </div>
